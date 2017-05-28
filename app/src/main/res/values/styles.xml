@@ -4,6 +4,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
     </style>
 
     <style name="stretchedVertically">
@@ -42,11 +43,15 @@
     <style name="toolbar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">?attr/actionBarSize</item>
-        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/colorBackground</item>
     </style>
 
     <style name="whiteColorCode">
         <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="accentColorCode">
+        <item name="colorControlNormal">@color/colorAccent</item>
     </style>
 
     <style name="errorImage">

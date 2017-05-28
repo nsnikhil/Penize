@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initialize() {
         setSupportActionBar(mMainToolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportFragmentManager().beginTransaction().add(R.id.mainContainer, new MainFragment(), mFragmentTags[0]).commit();
     }
 

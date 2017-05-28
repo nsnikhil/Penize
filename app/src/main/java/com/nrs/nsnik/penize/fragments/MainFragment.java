@@ -104,7 +104,7 @@ public class MainFragment extends Fragment {
         FloatingActionButton addIncome = new com.github.clans.fab.FloatingActionButton(getActivity());
         addIncome.setButtonSize(FloatingActionButton.SIZE_NORMAL);
         addIncome.setLabelText(getResources().getString(R.string.navItem4));
-        addIncome.setImageResource(R.mipmap.ic_launcher);
+        addIncome.setImageResource(R.drawable.add_24);
         addIncome.setColorNormal(ContextCompat.getColor(getActivity(),R.color.colorAccent));
         addIncome.setColorPressed(ContextCompat.getColor(getActivity(),R.color.colorAccentLight));
         mActionMenu.addMenuButton(addIncome);
@@ -117,7 +117,7 @@ public class MainFragment extends Fragment {
         FloatingActionButton addSavings = new com.github.clans.fab.FloatingActionButton(getActivity());
         addSavings.setButtonSize(FloatingActionButton.SIZE_NORMAL);
         addSavings.setLabelText(getResources().getString(R.string.navItem3));
-        addSavings.setImageResource(R.mipmap.ic_launcher);
+        addSavings.setImageResource(R.drawable.add_24);
         addSavings.setColorNormal(ContextCompat.getColor(getActivity(),R.color.colorAccent));
         addSavings.setColorPressed(ContextCompat.getColor(getActivity(),R.color.colorAccentLight));
         mActionMenu.addMenuButton(addSavings);
@@ -130,7 +130,7 @@ public class MainFragment extends Fragment {
         FloatingActionButton addExpenditure = new com.github.clans.fab.FloatingActionButton(getActivity());
         addExpenditure.setButtonSize(FloatingActionButton.SIZE_NORMAL);
         addExpenditure.setLabelText(getResources().getString(R.string.navItem2));
-        addExpenditure.setImageResource(R.mipmap.ic_launcher);
+        addExpenditure.setImageResource(R.drawable.add_24);
         addExpenditure.setColorNormal(ContextCompat.getColor(getActivity(),R.color.colorAccent));
         addExpenditure.setColorPressed(ContextCompat.getColor(getActivity(),R.color.colorAccentLight));
         mActionMenu.addMenuButton(addExpenditure);
@@ -159,6 +159,7 @@ public class MainFragment extends Fragment {
         }
         mAdapter.modifyAllValues(mDateList);
     }
+
 
     private void listeners() {
 
