@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchParent"
+    tools:context="com.nrs.nsnik.penize.fragments.MainFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainList"
+        style="@style/matchParent" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/mainFab"
+        style="@style/fab"
+        android:src="@drawable/ic_add_white_48dp"
+        app:fabSize="normal"
+        fab:menu_colorNormal="@color/colorAccent"
+        fab:menu_colorPressed="@color/colorAccentLight"
+        fab:menu_colorRipple="@color/colorAccentLight" />
+
+</RelativeLayout>

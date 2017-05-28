@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/stretchedVertically"
+    android:background="?android:attr/selectableItemBackground"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_height="250dp"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="4dp"
+    card_view:cardMaxElevation="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/singleItemValue"
+        style="@style/wrapContent"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="@dimen/sixteen"
+        android:textSize="14sp" />
+
+</android.support.v7.widget.CardView>
