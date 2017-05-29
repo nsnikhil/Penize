@@ -153,7 +153,7 @@ public class MainFragment extends Fragment {
     private void makeList() {
         Calendar now = Calendar.getInstance();
         long second = TimeUnit.MILLISECONDS.toDays(now.getTimeInMillis());
-        mDateList.add("Monthly Expenditure");
+        mDateList.add("Monthly Record");
         for (int i = 0; i <7; i++) {
             mDateList.add(formatDate(second,(-i)));
         }
